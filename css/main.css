@@ -1,0 +1,48 @@
+/* Default CSS */
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 15px;
+  color: #444;
+  font-weight: 500;
+}
+
+body {
+  background: #fff none repeat scroll 0 0;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-align: left;
+  overflow-x: hidden;
+  line-height: 22px;
+}
+/* Header Area */
+
+
+
+/* About Area */
+
+
+
+/* Quote Area */
+
+
+
+/* Services Area */
+
+
+
+/* Subscribe Area */
+
+
+
+/* Contact Area */
+
+
+
+/* Footer Area */
+
