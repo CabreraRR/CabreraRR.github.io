@@ -1,21 +1,9 @@
-/* Default CSS */
+ Default CSS */
 
 html,
 body {
     height: 100%;
 }
-
-/*h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Raleway', sans-serif;
-    margin: 0 0 15px;
-    color: #444;
-    font-weight: 500;
-}*/
 
 body {
     background: #fff none repeat scroll 0 0;
@@ -94,7 +82,15 @@ body {
     height: auto;
     padding-top: 10px;
 }
-
+/* Modal for Services*/
+.modal {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.modal-title {
+  text-align: center;
+}
 
 /* Subscribe Area */
 .subscribe-area {
@@ -117,4 +113,4 @@ body {
 }
 
 
-/* Footer Area */
+/* Footer Area 
