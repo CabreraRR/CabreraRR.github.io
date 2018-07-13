@@ -64,15 +64,29 @@ body {
 
 /* Quote Area */
 .quote-area {
-  background: rgba(0, 0, 0, 0) url("../img/quo");
+  background: rgba(0, 0, 0, 0) url("../img/quote/quote.jpg");
+  padding-top: 125px;
+  padding-bottom: 100px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f9f9f9;
+}
+.quote{
+  font-size: 30px;
+  line-height: 35px;
+}
+.quote-src{
+  font-size: 20px;
+  line-height: 20px;
+  text-align: right;
 }
 
 /* Services Area */
 
 .services-area {
     background-color: #f9f9f9;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .services-item {
