@@ -1,4 +1,4 @@
- Default CSS */
+/* Default CSS */
 
 html,
 body {
@@ -34,6 +34,16 @@ body {
 /* Welcome Area */
 
 
+.carousel-inner {
+  width: auto;
+  height: 600px;
+}
+
+.slide {
+  max-width:2000px;
+  min-height: 600px;
+  margin: auto;
+}
 /* About Area */
 
 .about-area {

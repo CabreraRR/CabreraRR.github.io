@@ -43,15 +43,49 @@
     </header>
     <!-- Welcome Area -->
     <div id="welcome" class="welcome-area">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 col-sm-12 col-xs-12">
-                    <div class="text-center">
-                        <h2>Welcome</h2>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100 slide" src="img/welcome/welcome1.jpg" alt="First slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Welcome</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+                             Modi ipsa, incidunt officiis?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 slide" src="img/welcome/welcome2.jpg" alt="Second slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Services</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+                             Modi ipsa, incidunt officiis?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100 slide" src="img/welcome/welcome3.jpg" alt="Third slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h3>Subscribe</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+                             Modi ipsa, incidunt officiis?</p>
+                        </div>
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
             </div>
-        </div>
+
     </div>
     <!-- About Area -->
     <div id="about" class="about-area">
@@ -109,37 +143,37 @@
                             </div>
                             <div class="p-2 services-item">
                                 <button type="button" data-target="#healthcare" data-toggle="modal">
-                                <img src="img/services/healthcare.png" alt="" class="icon">
-                                <h5>Healthcare</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
+                                    <img src="img/services/healthcare.png" alt="" class="icon">
+                                    <h5>Healthcare</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
                             <div class="p-2 services-item">
                                 <button type="button" data-target="#construction" data-toggle="modal">
-                                <img src="img/services/construction.png" alt="" class="icon">
-                                <h5>Construction</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
+                                    <img src="img/services/construction.png" alt="" class="icon">
+                                    <h5>Construction</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
                             <div class="p-2 services-item">
                                 <button type="button" data-target="#management" data-toggle="modal">
-                                <img src="img/services/management.png" alt="" class="icon">
-                                <h5>Project Management</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
+                                    <img src="img/services/management.png" alt="" class="icon">
+                                    <h5>Project Management</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
                             <div class="p-2 services-item">
                                 <button type="button" data-target="#engineering" data-toggle="modal">
-                                <img src="img/services/IT.png" alt="" class="icon">
-                                <h5>IT and Engineering</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
+                                    <img src="img/services/IT.png" alt="" class="icon">
+                                    <h5>IT and Engineering</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
                             <div class="p-2 services-item">
                                 <button type="button" data-target="#marketing" data-toggle="modal">
-                                <img src="img/services/marketing.png" alt="" class="icon">
-                                <h5>Marketting Professionals</h5>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
+                                    <img src="img/services/marketing.png" alt="" class="icon">
+                                    <h5>Marketting Professionals</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
                         </div>
@@ -152,8 +186,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <h3 class="modal-title">Administration - Finance</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
+                                        <h3 class="modal-title">Administration - Finance</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -170,8 +203,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <h3 class="modal-title">Healthcare</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
+                                        <h3 class="modal-title">Healthcare</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -188,8 +220,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <h3 class="modal-title">Construction</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
+                                        <h3 class="modal-title">Construction</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -206,8 +237,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <h3 class="modal-title">Project Management</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
+                                        <h3 class="modal-title">Project Management</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -224,8 +254,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <h3 class="modal-title">IT and Engineering</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
+                                        <h3 class="modal-title">IT and Engineering</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -242,8 +271,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <h3 class="modal-title">Marketing Professionals</h3>
-                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
+                                        <h3 class="modal-title">Marketing Professionals</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
