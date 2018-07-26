@@ -44,8 +44,8 @@ body {
 .about-area {
     background-color: #f9f9f9;
     width: auto;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .about-item {
@@ -80,13 +80,14 @@ body {
 .services-area {
     background-color: #f9f9f9;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
 }
 
 .services-item {
     width: 300px;
     height: auto;
     padding-top: 10px;
+    margin:30px;
 }
 /* Modal for Services*/
 .modal {
@@ -96,6 +97,7 @@ body {
 }
 .modal-title {
   text-align: center;
+  padding-bottom: 20px;
 }
 
 /* Subscribe Area */
@@ -115,11 +117,19 @@ body {
 
 .contact-area {
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     background-color: #f9f9f9;
     height: auto;
     width: 100%;
 }
+.contact-title{
+  margin-bottom: 50px;
+}
 
+/* Footer Area */
 
-/* Footer Area 
+.footer {
+  padding: 50px;
+  text-align: center;
+  background-color: #f9f9f9;
+}

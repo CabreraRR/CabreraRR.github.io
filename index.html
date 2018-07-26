@@ -14,12 +14,12 @@
     <header>
         <div class="header-area">
             <div class="col-md-12 col-sm-12"></div>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
                 <a class="navbar-brand" href="#">Rothschild Resource Management Corp.</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
                             <a class="nav-link" href="#">Home</a>
@@ -43,49 +43,47 @@
     </header>
     <!-- Welcome Area -->
     <div id="welcome" class="welcome-area">
-
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img class="slide" src="img/welcome/welcome1.jpg" alt="First slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h3>Welcome</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
-                             Modi ipsa, incidunt officiis?</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="slide" src="img/welcome/welcome2.jpg" alt="Second slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h3>Services</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
-                             Modi ipsa, incidunt officiis?</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img class="slide" src="img/welcome/welcome3.jpg" alt="Third slide">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h3>Subscribe</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
-                             Modi ipsa, incidunt officiis?</p>
-                        </div>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="slide" src="img/welcome/welcome1.jpg" alt="First slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Welcome</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+                            Modi ipsa, incidunt officiis?</p>
                     </div>
                 </div>
-                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <div class="carousel-item">
+                    <img class="slide" src="img/welcome/welcome2.jpg" alt="Second slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Services</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+                            Modi ipsa, incidunt officiis?</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="slide" src="img/welcome/welcome3.jpg" alt="Third slide">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Subscribe</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</br>
+                            Modi ipsa, incidunt officiis?</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-            </div>
-
+        </div>
     </div>
     <!-- About Area -->
     <div id="about" class="about-area">
@@ -103,7 +101,20 @@
                 </div>
                 <div class="p-2 about-item">
                     <h4>Rothschild Resource Management Corp.</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt modi, explicabo beatae. Alias voluptates consectetur deleniti maxime pariatur nihil fugiat! Asperiores expedita quidem ab modi, reprehenderit culpa quisquam!
+                    <p>
+                        Rothschild is a full service Resource Management Corporation specializing in assisting corporations through, transition, transformation and growth in this constantly evolving marketplace.</br>
+                        We offer the following Services:
+                    </p>
+                    <ul>
+                        <li>Administration</li>
+                        <li>Construction</li>
+                        <li>Engineering</li>
+                        <li>Finance</li>
+                        <li>Healthcare</li>
+                        <li>IT</li>
+                        <li>Marketing</li>
+                        <li>Project Management</li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -135,16 +146,9 @@
                         <h2>Services</h2>
                         <div class="d-flex flex-wrap justify-content-around">
                             <div class="p-2 services-item">
-                                <button type="button" data-target="#finance" data-toggle="modal">
-                                    <img src="img/services/finance.png" alt="" class="icon">
-                                    <h5>Administration - Finance</h5>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
-                                </button>
-                            </div>
-                            <div class="p-2 services-item">
-                                <button type="button" data-target="#healthcare" data-toggle="modal">
-                                    <img src="img/services/healthcare.png" alt="" class="icon">
-                                    <h5>Healthcare</h5>
+                                <button type="button" data-target="#administration" data-toggle="modal">
+                                    <img src="img/services/administration.png" alt="" class="icon">
+                                    <h5>Administration</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
@@ -156,16 +160,30 @@
                                 </button>
                             </div>
                             <div class="p-2 services-item">
-                                <button type="button" data-target="#management" data-toggle="modal">
-                                    <img src="img/services/management.png" alt="" class="icon">
-                                    <h5>Project Management</h5>
+                                <button type="button" data-target="#engineering" data-toggle="modal">
+                                    <img src="img/services/engineering.png" alt="" class="icon">
+                                    <h5>Engineering</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
                             <div class="p-2 services-item">
-                                <button type="button" data-target="#engineering" data-toggle="modal">
-                                    <img src="img/services/IT.png" alt="" class="icon">
-                                    <h5>IT and Engineering</h5>
+                                <button type="button" data-target="#finance" data-toggle="modal">
+                                    <img src="img/services/finance.png" alt="" class="icon">
+                                    <h5>Finance</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
+                                </button>
+                            </div>
+                            <div class="p-2 services-item">
+                                <button type="button" data-target="#healthcare" data-toggle="modal">
+                                    <img src="img/services/healthcare.png" alt="" class="icon">
+                                    <h5>Healthcare</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
+                                </button>
+                            </div>
+                            <div class="p-2 services-item">
+                                <button type="button" data-target="#it" data-toggle="modal">
+                                    <img src="img/services/it.png" alt="" class="icon">
+                                    <h5>IT</h5>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
@@ -176,6 +194,15 @@
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
                                 </button>
                             </div>
+                            <div class="p-2 services-item">
+                                <button type="button" data-target="#project" data-toggle="modal">
+                                    <img src="img/services/project.png" alt="" class="icon">
+                                    <h5>Project Management</h5>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores voluptate atque, in harum ab delectus sunt at enim impedit, sed.</p>
+                                </button>
+                            </div>
+                            
+                            
                         </div>
                         <div class="modal fade" id="finance" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
                             <div class="modal-dialog modal-dialog-centered" role="document">
@@ -186,6 +213,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
+                                        <img src="img/services/finance.png" class="icon" alt="">
                                         <h3 class="modal-title">Administration - Finance</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
@@ -203,6 +231,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
+                                        <img src="img/services/healthcare.png" class="icon" alt="">
                                         <h3 class="modal-title">Healthcare</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
@@ -220,6 +249,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
+                                        <img src="img/services/construction.png" class="icon" alt="">
                                         <h3 class="modal-title">Construction</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
@@ -237,6 +267,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
+                                        <img src="img/services/management.png" class="icon" alt="">
                                         <h3 class="modal-title">Project Management</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
@@ -254,6 +285,7 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
+                                        <img src="img/services/IT.png" class="icon" alt="">
                                         <h3 class="modal-title">IT and Engineering</h3> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam officiis, explicabo. Rem dolorem cum facilis ab, dignissimos, sunt quaerat fugit debitis temporibus quam, deserunt. Numquam.
                                     </div>
                                     <div class="modal-footer">
@@ -297,7 +329,7 @@
                         <div class="input-group input-group-lg">
                             <input type="text" class="form-control" placeholder="email">
                             <div class="input-group-append">
-                                <button type="submit" class="btn btn-outline-secondary">Subscribe</button>
+                                <button type="submit" class="btn btn-secondary">Subscribe</button>
                             </div>
                         </div>
                     </div>
@@ -309,7 +341,7 @@
     <div id="contact" class="contact-area">
         <div class="container">
             <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="text-center">
+                <div class="text-center contact-title">
                     <h2>Contact Us </h2>
                 </div>
             </div>
@@ -334,9 +366,9 @@
         </div>
     </div>
     <!-- Footer Area -->
-    <footer>
-        <div class="Footer">
-            <b>Brought to you by Roel Cabrera</b>
+    <footer class="footer">
+        <div>
+            <b>Copyright 2018 - Rothschild Resource Management - Designed by Roel Cabrera</b>
         </div>
     </footer>
     <script src="lib/jquery/jquery.min.js"></script>
