@@ -26,12 +26,27 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
+h1 {
+  padding-bottom:50px;
+}
+.left {
+  text-align: left;
+}
 /* Header Area */
-
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    /* (80px - line-height of 27px) / 2 = 26.5px */
+    padding-top: 26.5px;
+    padding-bottom: 26.5px;
+    line-height: 25px;
+  }
+}
 
 /* Welcome Area */
+.welcome-area {
+  padding-top: 100px;
+}
+
 @media screen and (max-width:414px){
   .active .slide,
   .carousel-item-left .slide{
@@ -81,6 +96,8 @@ body {
     background-color: #f9f9f9;
     padding-top: 100px;
     padding-bottom: 70px;
+    
+    
 }
 
 .services-item {
@@ -88,13 +105,17 @@ body {
     height: auto;
     padding-top: 10px;
     margin:30px;
+    text-align: left;
 }
+.services-button {
+  background-color: #f9f9f9;
+  border: none;
+  width: 300px;
+  height:350px;
+}
+button:focus {outline:0;}
 /* Modal for Services*/
-.modal {
-  width: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
+
 .modal-title {
   text-align: center;
   padding-bottom: 20px;
